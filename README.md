@@ -67,22 +67,22 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 Ensure input.txt is in the project root directory with the commands you wish to execute. Example content: ** 
 
-CREATE fruits
-CREATE vegetables
-CREATE grains
-CREATE fruits/apples
-CREATE fruits/apples/fuji
-LIST
-CREATE grains/squash
-MOVE grains/squash vegetables
-CREATE foods
-MOVE grains foods
-MOVE fruits foods
-MOVE vegetables foods
-LIST
-DELETE fruits/apples
-DELETE foods/fruits/apples
-LIST
+CREATE fruits\
+CREATE vegetables\
+CREATE grains\
+CREATE fruits/apples\
+CREATE fruits/apples/fuji\
+LIST\
+CREATE grains/squash\
+MOVE grains/squash vegetables\
+CREATE foods\
+MOVE grains foods\
+MOVE fruits foods\
+MOVE vegetables foods\
+LIST\
+DELETE fruits/apples\
+DELETE foods/fruits/apples\
+LIST\
 
 
 ## Run the application
