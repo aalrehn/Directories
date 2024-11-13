@@ -1,25 +1,8 @@
 # 🍎 Virtual File System Simulator
 
-[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
-[![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg)](#)
-[![Coverage Status](https://img.shields.io/badge/Coverage-100%25-brightgreen.svg)](#)
 
 A Python application that simulates a virtual file system, allowing users to create, move, and delete directories through a command-line interface.
 
-## 📖 Table of Contents
-
-- [Description](#-description)
-- [Features](#-features)
-- [Demo](#-demo)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Project Structure](#-project-structure)
-- [Testing](#-testing)
-- [Requirements](#-requirements)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Contact](#-contact)
 
 ## 📝 Description
 
