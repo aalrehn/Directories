@@ -139,6 +139,7 @@ foods
 │   │   └── logger_module.cpython-312.pyc
 │   └── logger_module.py
 ├── README.md
+├── directories.py
 ├── filesystem
 │   ├── __init__.py
 │   ├── __pycache__
@@ -152,7 +153,6 @@ foods
 │   ├── directory_structure.py
 │   └── file_input_reader.py
 ├── input.txt
-├── main.py
 ├── output.txt
 ├── requirements.txt
 └── tests
