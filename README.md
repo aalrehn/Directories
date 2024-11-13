@@ -52,15 +52,28 @@ Example commands:
    cd Directories
 
 2. **Install Dependencies** 
+```
 pip3 install -r requirements.txt
+```
+**(Optional but recommended)**
 
-(Optional but recommended)
 ```
 python3 -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```
+## Run the application
+   ```
+   python3 directories.py
+```
 
 
+## 🧪 Testing
+
+1. Run Unit Tests
+From the project root directory, execute:
+```
+   pytest
+```
 ## 📚 Usage
 
 1. **Prepare the Input File**
@@ -87,9 +100,7 @@ LIST
 ```
 
 
-## Run the application
 
-   python main.py
 
 
 ## View the Output
@@ -136,13 +147,7 @@ foods
 
 ```
 
-## 🧪 Testing
 
-1. Run Unit Tests
-From the project root directory, execute:
-```
-   pytest
-```
 
 ## 📁 Project Structure
 ```
