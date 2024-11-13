@@ -67,23 +67,23 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 Ensure input.txt is in the project root directory with the commands you wish to execute. Example content: ** 
 ```
-
-CREATE fruits\
-CREATE vegetables\
-CREATE grains\
-CREATE fruits/apples\
-CREATE fruits/apples/fuji\
-LIST\
-CREATE grains/squash\
-MOVE grains/squash vegetables\
-CREATE foods\
-MOVE grains foods\
-MOVE fruits foods\
-MOVE vegetables foods\
-LIST\
-DELETE fruits/apples\
-DELETE foods/fruits/apples\
+CREATE fruits
+CREATE vegetables
+CREATE grains
+CREATE fruits/apples
+CREATE fruits/apples/fuji
 LIST
+CREATE grains/squash
+MOVE grains/squash vegetables
+CREATE foods
+MOVE grains foods
+MOVE fruits foods
+MOVE vegetables foods
+LIST
+DELETE fruits/apples
+DELETE foods/fruits/apples
+LIST
+
 ```
 
 
@@ -99,52 +99,53 @@ The output will be written to output.txt in the project root directory.
 ## Example Output:
 ```
 
-CREATE fruits\
-CREATE vegetables\
-CREATE grains\
-CREATE fruits/apples\
-CREATE fruits/apples/fuji\
-LIST\
-fruits\
-  apples\
-    fuji\
-grains\
-vegetables\
-CREATE grains/squash\
-MOVE grains/squash vegetables\
-CREATE foods\
-MOVE grains foods\
-MOVE fruits foods\
-MOVE vegetables foods\
-LIST\
-foods\
-  fruits\
-    apples\
-      fuji\
-  grains\
-  vegetables\
-    squash\
-DELETE fruits/apples\
-Cannot delete fruits/apples - fruits does not exist\
-DELETE foods/fruits/apples\
-LIST\
-foods\
-  fruits\
-  grains\
-  vegetables\
+CREATE fruits
+CREATE vegetables
+CREATE grains
+CREATE fruits/apples
+CREATE fruits/apples/fuji
+LIST
+fruits
+  apples
+    fuji
+grains
+vegetables
+CREATE grains/squash
+MOVE grains/squash vegetables
+CREATE foods
+MOVE grains foods
+MOVE fruits foods
+MOVE vegetables foods
+LIST
+foods
+  fruits
+    apples
+      fuji
+  grains
+  vegetables
     squash
+DELETE fruits/apples
+Cannot delete fruits/apples - fruits does not exist
+DELETE foods/fruits/apples
+LIST
+foods
+  fruits
+  grains
+  vegetables
+    squash
+
 ```
 
 ## 🧪 Testing
 
 1. Run Unit Tests
 From the project root directory, execute:
-
+```
    pytest
-
+```
 
 ## 📁 Project Structure
-
+```
 ├── Logger
 │   ├── __pycache__
 │   │   └── logger_module.cpython-312.pyc
@@ -180,3 +181,4 @@ From the project root directory, execute:
     ├── test_directory_structure.py
     ├── test_file_input_reader.py
     └── test_logger_module.py
+    ```
