@@ -51,10 +51,11 @@ Example commands:
    git clone https://github.com/aalrehn/Directories.git
    cd Directories
 
-2. ** Install Dependencies** 
+2. **Install Dependencies** 
 pip3 install -r requirements.txt
 
 (Optional but recommended)
+
 python3 -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
