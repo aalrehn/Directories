@@ -66,6 +66,7 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 1. **Prepare the Input File**
 
 Ensure input.txt is in the project root directory with the commands you wish to execute. Example content: ** 
+```
 
 CREATE fruits\
 CREATE vegetables\
@@ -83,6 +84,7 @@ LIST\
 DELETE fruits/apples\
 DELETE foods/fruits/apples\
 LIST
+```
 
 
 ## Run the application
@@ -95,6 +97,7 @@ LIST
 The output will be written to output.txt in the project root directory.
 
 ## Example Output:
+```
 
 CREATE fruits\
 CREATE vegetables\
@@ -130,6 +133,7 @@ foods\
   grains\
   vegetables\
     squash
+```
 
 ## 🧪 Testing
 
