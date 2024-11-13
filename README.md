@@ -59,11 +59,20 @@ pip3 install -r requirements.txt
 python3 -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
-📚 Usage
 
+## Installation
+1. Clone the repository:
+
+git clone https://github.com/username/WeatherForecastApp.git
+
+cd WeatherForecastApp
+
+npm install
+
+npm start
 ## 📚 Usage
 
-1. **Prepare the Input File
+1. **Prepare the Input File**
 
 Ensure input.txt is in the project root directory with the commands you wish to execute. Example content: ** 
 
